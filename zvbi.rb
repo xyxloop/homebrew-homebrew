@@ -3,6 +3,9 @@ class Zvbi < Formula
   homepage "http://zapping.sourceforge.net/ZVBI/"
   url "https://salsa.debian.org/debian/zvbi/-/archive/6aa67af160a6f727fb583d890f4a5a5ae8471d3e/zvbi-6aa67af160a6f727fb583d890f4a5a5ae8471d3e.tar.gz"
   sha256 "4531d8203822ecd24155415ad7e7102cee7a37dc70734d0fdee2a51b99b27853"
+  
+  head do
+    url "https://salsa.debian.org/debian/zvbi.git"
 
     depends_on "autoconf" => :build
     depends_on "automake" => :build
