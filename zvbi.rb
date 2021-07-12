@@ -22,8 +22,4 @@ class Zvbi < Formula
     system "./configure", *args
     system "make", "install"
   end
-  
-  test do
-    assert_match "Usage:", shell_output("#{bin}/strings #{bin}/strings")
-end
-end
+ 
