@@ -25,4 +25,8 @@ class Zvbi < Formula
     system "./configure", *args
     system "make", "install"
   end
-end 
+
+  test do
+    system "#{bin}/zvbi-ntsc-cc", "-h"
+  end
+end
