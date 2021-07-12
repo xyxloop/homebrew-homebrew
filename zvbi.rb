@@ -20,6 +20,7 @@ class Zvbi < Formula
     
     args = %W[
       --prefix=#{prefix}
+      --disable-dependency-tracking
     ]
 
     system "./configure", *args
