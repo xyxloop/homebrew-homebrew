@@ -25,4 +25,4 @@ class Zvbi < Formula
     system "./configure", *args
     system "make", "install"
   end
- 
+end 
