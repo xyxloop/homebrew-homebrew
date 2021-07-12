@@ -25,6 +25,5 @@ class Zvbi < Formula
   
   test do
     assert_match "Usage:", shell_output("#{bin}/strings #{bin}/strings")
-  end
- end
+end
 end
